@@ -41,8 +41,8 @@ It is divided into 2 parts:
 ## 2. Pseudocode questions you don't have time for
 - Again, they're checking for programming thinking first, syntax second
 
-References:
-Python Crash Course Cheat sheet
-https://ehmatthes.github.io/pcc/cheatsheets/README.html
-Python Style Guide
-https://www.python.org/dev/peps/pep-0008/
+#References:
+1. Python Crash Course Cheat sheet
+- https://ehmatthes.github.io/pcc/cheatsheets/README.html
+2. Python Style Guide
+- https://www.python.org/dev/peps/pep-0008/
