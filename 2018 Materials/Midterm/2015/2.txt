@@ -1,0 +1,5 @@
+The code executes correctly as there is no syntatical error. The Finch robot will start off in a straight line.
+
+The first problem with the code is that the obstacle detection is only done at the start of the program. If the Finch robot detects an obstacle during motion, there is nothing in place to check for it, and it will not stop.
+
+In order to fix this, the leftObstacle and rightObstacle variables should be updated within the while loop. "leftObstacle, rightObstacle = finch.obstacle()" should be added to the start of the for loop, to allow the code to continuously check for the current situation.

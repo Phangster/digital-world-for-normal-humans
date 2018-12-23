@@ -1,0 +1,5 @@
+a) The student is trying to make the eBot accelerate to max speed, instead of immediately setting the speed to max. This can be seen from the speed (power) starting at 0.1, and increasing by 0.1 every 2 seconds (sleep(2)) in the while loop. When the eBot reaches max speed, the program disconnects from the eBot.
+
+b) The function is called 9 times. The power starts at 0.1, and increases by 0.1 until it reaches 1. Hence, the loop will have to run 9 times, since 0.1 + 9 * 0.1 = 1.
+
+c) The eBot will accelerate to 1.0 almost immediately, as the while loop interactions run very quickly. The acceleration of the eBot will likely be unnoticable and it will just look as if the eBot starts from a speed of 1.0.

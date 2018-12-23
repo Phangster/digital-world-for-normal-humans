@@ -1,0 +1,13 @@
+Similarities:
+List and dictionaries are both used to store data, and are both mutable data structures.
+
+
+Differences:
+List is an ordered collection of items, while a dictionary is an unordered collection of key-value pairs.
+
+List data structure is ordered while a dictionary data structure is unordered. In a list, each item can be retrieved using its index (integer) while in a dictionary, each object is retrieved using its key (can be an integer, string, etc).
+
+What kind of data:
+A list structure is useful when the order of the data matters, and a dictionary is useful when we are not concerned with the order of the data, but wish to retrieve it through a value instead of an index.
+
+For example, a list may be used to keep track of the top scores of an exam (order matters, can be sorted), while a dictionary may be used to store a student's name and student ID (student ID being the key, student name being the value).

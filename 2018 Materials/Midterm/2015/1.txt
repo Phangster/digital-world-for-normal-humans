@@ -1,0 +1,5 @@
+(i) b is a pointer to a. When any of the values of b are changed (either in the list or the sublist), for example with b[0] = 0, a will also be modified as well. In this case, a will be changed to [0, 2, [3, 4], 5].
+
+(ii) c is a shallow copy of a. When the values of c are changed (other than the sublist), the values of a will not be changed. With c[0] = 0, a will still be [1, 2, [3, 4], 5]. However, this shallow copy does not copy the nested list. If the the value of the nested list in c is changed, the value will also be changed in a. For example, doing c[2][0] = 0 will result in both a and c becoming [1, 2, [0, 4], 5]
+
+(iii) d is a deepcopy of a produced using the deepcopy method of the copy module in Python. In this case, all nested lists are also copied. When any value in d is changed, a will not be affected. Doing d[2][0] = 0 will change d but not a in this case.
