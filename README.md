@@ -35,10 +35,10 @@ It is divided into 2 parts:
 
 
 # Scoring on exams
-# 1. Quantity not quality
+## 1. Quantity not quality
 - While proper coding conventions and program structure is important, digital world exams are marked to check whether you understand the concepts and less on the syntax
 
-# 2. Pseudocode questions you don't have time for
+## 2. Pseudocode questions you don't have time for
 - Again, they're checking for programming thinking first, syntax second
 
 References:
